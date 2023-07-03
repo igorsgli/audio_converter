@@ -1,4 +1,4 @@
-# Audio Converter (from wav to mp2) / Аудио конвертер (из wav в mp3)
+# Audio Converter (from wav to mp2) / Аудио Конвертер (из wav в mp3)
 A mini web service that allows the user to convert audio recordings from wav format to mp3 format, save the converted recordings to a database and provide links for downloading the audio recording.
 The user in the database is created with the username. When a user is created, a unique user ID and UUID access token (as a string) is generated for that user.
 When passing an audio recording in wav format, a unique user ID and an access token to the web service, the audio recording is converted to mp3 format, saved to the database, and a unique UUID identifier for the recording is generated.
@@ -26,8 +26,8 @@ The repository provides instructions for building a docker image of the service,
 
 ### 1. Git clone / Клонировать репозиторий:
 ```
-git clone https://github.com/igorsgli/test_bewise_1.git
-cd test_bewise_1
+git clone https://github.com/igorsgli/audio_converter.git
+cd audio_converter
 ```
 ### 2. Install depencies / Установить зависимости:
 ```
